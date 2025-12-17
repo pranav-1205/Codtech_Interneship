@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="assets/css/styles.css">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+
+<body>
+    <!-- Main -->
+    <main class="main-frame">
+        <!-- header -->
+        <header class="header">
+            <nav class="nav">
+                <a href="index.html" class="nav-logo center">Pranav</a>
+                <div class="nav-menu center">
+                    <ul class="nav-list">
+                        <li class="nav-item">
+                            <a href="index.html" class="nav-link ">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="skills.html" class="nav-link ">Skills</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="projects.html" class="nav-link ">Projects</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="about.html" class="nav-link">About Me</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="education.html" class="nav-link ">Educations</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="contact.html" class="nav-link active-link">Contact Me</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="nav-social center">
+                    <a href="https://github.com/pranav-1205" target="_blank" class="nav-social-link">
+                        <i class="fa-brands fa-github"></i>
+                    </a>
+
+                    <a href="https://www.instagram.com/pranav_012._?igsh=Y3NpZm5zd3JoMXZj" target="_blank"
+                        class="nav-social-link">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+
+                    <a href="https://www.linkedin.com/in/pranav-sadwelkar-b0b593348?utm_source=share_via&utm_content=profile&utm_medium=member_android"
+                        target="_blank" class="nav-social-link">
+                        <i class="fa-brands fa-linkedin"></i>
+                    </a>
+
+                    <a href="https://youtube.com/@pranav_012?si=0RorERl2FDKJRUqM" target="_blank"
+                        class="nav-social-link">
+                        <i class="fa-brands fa-youtube"></i>
+                    </a>
+                </div>
+                <div class="nav-toggle">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+            </nav>
+        </header>
+        <!-- Skills -->
+        <section class="contact container section">
+            <span class="section-subtitle">Contact <span> Me</span></span>
+            <h2 class="section-title">Turn Ideas Into Reality</h2>
+
+            <div class="contact-container grid">
+                <div class="contact-content grid">
+                    <article class="contact-card">
+                        <h3 class="contact-title">Email</h3>
+
+                        <p class="contact-info">
+                            <a href="mailto:sadwelkarpranav12@gmail.com">sadwelkarpranav12@gmail.com</a>
+                            <br>
+                            <a href="mailto:sadwelkarpranav05@gmail.com">sadwelkarpranav05@gmail.com</a>
+                        </p>
+                    </article>
+
+                    <article class="contact-card">
+                        <h3 class="contact-title">Phone</h3>
+
+                        <p class="contact-info">
+                            <a href="tel:4787417887">91+ 4787 41 7887</a>
+                            <br>
+                            <a href="tel:4787417887">91+ 4787 41 7887</a>
+                        </p>
+                    </article>
+                </div>
+                <form action="" class="contact-form" id="contact-form">
+                    <div class="contact-group grid">
+                        <div class="contact-div">
+                            <label for="" class="contact-tag">Your full Name <b>*</b></label>
+                            <input type="text" class="contact-input" name="name" id="contact-name" />
+                        </div>
+
+                        <div class="contact-div">
+                            <label for="" class="contact-tag">Your Email Address <b>*</b></label>
+                            <input type="email" class="contact-input" name="email" id="contact-email" />
+                        </div>
+                    </div>
+                    <div class="contact-div contact-area">
+                        <label for="" class="contact-tag">Your Message <b>*</b></label>
+                        <textarea type="text" class="contact-input" name="message" id="contact-message"></textarea>
+                    </div>
+
+                    <button type="submit" class="button button-first contact-button">Send Message</button>
+
+                    <p class="message" id="message"></p>
+                </form>
+            </div>
+        </section>
+        <!-- Footer -->
+        <footer class="footer">
+            <div class="footer-copy center">
+                <p class="footer-copy-text">
+                    &copy; Copyright <span>Pranav Sadwelkar</span> All rights reserved
+                </p>
+            </div>
+        </footer>
+    </main>
+
+    <!-- Email JS -->
+
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+
+    <!-- Main JS -->
+    <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
