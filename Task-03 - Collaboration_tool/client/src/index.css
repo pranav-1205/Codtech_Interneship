@@ -1,0 +1,98 @@
+/* ===== Reset ===== */
+* {
+  box-sizing: border-box;
+}
+
+/* ===== Root ===== */
+:root {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, Ubuntu;
+  color-scheme: dark;
+}
+
+/* ===== Layout ===== */
+html,
+body,
+#root {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+}
+
+/* ===== App Background ===== */
+body {
+  background-color: #181a1f; /* soft dark */
+  color: #e6e6e6;
+}
+
+/* ===== Page Layout ===== */
+.app-container {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  padding: 24px 40px;
+}
+
+/* ===== Editor Wrapper ===== */
+.editor-wrapper {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+/* ===== Headings ===== */
+h2 {
+  color: #f1f1f1;
+  font-weight: 600;
+}
+
+/* ===== Quill Toolbar ===== */
+.ql-toolbar {
+  background-color: #2a2e35;
+  border: 1px solid #3a3f47;
+  border-radius: 8px 8px 0 0;
+}
+
+/* Toolbar icons */
+.ql-toolbar button,
+.ql-toolbar .ql-picker {
+  color: #e6e6e6;
+}
+
+.ql-toolbar button:hover {
+  background-color: #3a3f47;
+}
+
+/* ===== Quill Editor ===== */
+.ql-container {
+  flex: 1;
+  background-color: #1f2228;
+  color: #e6e6e6;
+  border: 1px solid #3a3f47;
+  border-top: none;
+  border-radius: 0 0 8px 8px;
+  font-size: 16px;
+}
+
+/* Text area */
+.ql-editor {
+  height: 100%;
+  padding: 16px;
+  overflow-y: auto;
+}
+
+/* Placeholder text */
+.ql-editor.ql-blank::before {
+  color: #8b8f97;
+  font-style: normal;
+}
+
+/* Links */
+a {
+  color: #8ab4f8;
+}
+a:hover {
+  color: #a3c2fa;
+}
