@@ -1,15 +1,19 @@
+import { useParams, useLocation } from "react-router-dom";
 import Editor from "../editor/Editor";
 
 export default function NotePage() {
-  return (
-    <div className="app-container">
-      <h2 style={{ marginBottom: "16px" }}>
-        📝 Real-Time Collaborative Note
-      </h2>
+  const { noteId } = useParams();
+  const { state } = useLocation();
 
-      <div className="editor-wrapper">
-        <Editor noteId="shared-note-1" />
-      </div>
-    </div>
-  );
+  const userName = state?.userName;
+
+  if (!userName) {
+    return (
+      <h3 style={{ textAlign: "center" }}>
+        Please start from Home and enter your name
+      </h3>
+    );
+  }
+
+  return <Editor noteId={noteId} userName={userName} />;
 }
