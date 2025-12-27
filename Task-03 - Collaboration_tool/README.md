@@ -258,12 +258,3 @@ Computer Science & Engineering Student
 Built as part of an **internship mini-project** focusing on **real-time collaboration systems**.
 
 ---
-
-If you want, next I can:
-
-* Shorten this for **GitHub** style
-* Convert it to **academic project documentation**
-* Add **architecture diagrams**
-* Add **screenshots section**
-
-Just tell me 👍
