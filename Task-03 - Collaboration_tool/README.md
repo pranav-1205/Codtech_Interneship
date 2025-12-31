@@ -1,3 +1,5 @@
+
+
 **COMPANY**: CODETECH IT SOLUTIONS
 
 **NAME**: PRANAV V SADWELKAR
@@ -178,6 +180,11 @@ Note {
   updatedAt: Date
 }
 ```
+## Output:
+
+<img width="1918" height="1029" alt="Screenshot 2025-12-31 211401" src="https://github.com/user-attachments/assets/0e2965eb-2987-4e5b-8b13-845c329fe56d" />
+<img width="1920" height="1032" alt="Screenshot 2025-12-31 211411" src="https://github.com/user-attachments/assets/767f0985-d13c-4920-8851-9cb24becf9ec" />
+<img width="1099" height="843" alt="Screenshot 2025-12-31 211447" src="https://github.com/user-attachments/assets/9b1e8b10-7f7c-4085-bc63-4a61025e7668" />
 
 ---
 
