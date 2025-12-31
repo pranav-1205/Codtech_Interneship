@@ -1,3 +1,5 @@
+## 🏁 Internship Details
+
 **COMPANY**: CODETECH IT SOLUTIONS
 
 **NAME**: PRANAV V SADWELKAR
@@ -144,7 +146,7 @@ http://localhost:5000/api/books
   "available": true
 }
 ```
-
+<img alt="Screenshot 2025-12-31 205107" src="https://github.com/user-attachments/assets/4a908729-266c-4f7c-9a20-693cade51aa4" />
 ---
 
 ### 📖 Get All Books
@@ -152,11 +154,14 @@ http://localhost:5000/api/books
 **GET** `/api/books`
 
 ---
-
+ <img  alt="Screenshot 2025-12-31 205407" src="https://github.com/user-attachments/assets/14e52531-d846-498f-bfc5-0ac5d6820e81" /></td>
+---
 ### 📘 Get Book by ID
 
 **GET** `/api/books/:id`
 
+---
+ <img  alt="Screenshot 2025-12-31 205442" src="https://github.com/user-attachments/assets/1a10b7cd-d5b3-4d23-9e79-51b23484eaf9" /></td>
 ---
 
 ### ✏️ Update a Book
@@ -169,13 +174,15 @@ http://localhost:5000/api/books
   "available": false
 }
 ```
-
+<img  alt="Screenshot 2025-12-31 205521" src="https://github.com/user-attachments/assets/801fa0d9-f688-49ea-8c25-87b22975104c" />
 ---
 
 ### ❌ Delete a Book
 
 **DELETE** `/api/books/:id`
 
+---
+<img  alt="Screenshot 2025-12-31 205555" src="https://github.com/user-attachments/assets/c054b17e-c28f-4805-a145-5c205b41485b" />
 ---
 
 ## 8. Running the Server
