@@ -10,6 +10,7 @@
 
 **MENTOR**: NEELA SANTOSH KUMAR
 
+---
 
 # 📝 Real-Time Collaborative Notes Application
 
